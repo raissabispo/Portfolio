@@ -452,20 +452,22 @@ span{
 }
 @media(max-width:1285px){
     html{
-     font-size: 55%;
+     font-size: 44%;
     }
     .projetos-container{
-        padding: 7rem;
+        padding: 5rem;
         grid-template-columns: repeat(2,1fr);
         margin: 0 5rem;
          }
+
+
 }
-@media(max-width:991px){
+@media(max-width:900px){
     header{
         padding:2rem 3%;
     }
     section{
-        padding:10rem 3% 2rem;
+        padding:2rem 3% 2rem;
     }
     .projetos .wrapper{
         grid-template-columns: repeat(1,1fr);
@@ -508,7 +510,7 @@ span{
         font-size: 2.6rem;
     }
     .home-content h1 {
-        font-size: 8rem;
+        font-size: 5rem;
         margin-top: 3rem;
     }
     .home-content p {
@@ -516,7 +518,7 @@ span{
         margin: 0 auto;
     }
     .home-img img {
-        width: 56vw;
+        width: 45vw;
         margin-top: 1rem;
     }
     .about {
@@ -526,16 +528,24 @@ span{
         margin: 0 2rem 4rem;
     }
     .about img {
-        width: 52vw;
+        width: 45vw;
         margin-top: 1rem;
         margin-bottom: 3rem;
     }
     .projetos h2 {
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
     }
     .projetos-container {
         grid-template-columns: repeat(1, 1fr);
     }
+    .projetos-img{
+        height: 200px;
+    }
+
+    .projetos-img img{
+        width: 150px;
+    }
+
 }
 
 
