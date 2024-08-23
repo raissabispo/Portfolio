@@ -144,6 +144,7 @@ span{
                  0 0 50px var(--main-color)
                  0 0 100px var(--main-color)
 }
+
 .home-content p{
     font-size: 1.5rem;
     font-weight: 500;
@@ -164,6 +165,21 @@ span{
     margin: 3rem 1.5rem 3rem 0;
    text-decoration-line: none;
    transition: 0.3s ease-in-out;
+   cursor: pointer;
+}
+.skills i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 0rem 1rem 4rem 0;
+   text-decoration-line: none;
+   transition: 0.3s ease-in-out;
+   box-shadow: 0 0 10px rgba(207, 207, 207, 0.7);
+   border-radius: 50%;
 }
 
 .social-icons a:hover{
@@ -275,6 +291,26 @@ span{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+.logos{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos img{
+    height: 120px;
+    min-height: 100px;
+    max-width: 190px;
+    margin: 0 2rem;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+}
 .about-content .text-animation span::before{
     content: "Desenvolvedora Front-end";
     color: var(--main-color);
@@ -351,6 +387,7 @@ span{
     border: 3px solid var(--main-color);
     transform: translateY(-10px)scale(1.03);
 }
+
 
 .projetos-img img{
     width: 300px;
@@ -547,8 +584,3 @@ span{
     }
 
 }
-
-
-
-
-
