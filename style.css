@@ -350,7 +350,7 @@ span{
     gap: 3rem;
 }
 .projetos-img {
-    height: 470px;
+    height: 475px;
     min-height: 300px;
     max-width: 400px;
     background: rgba(0, 0, 0, 0.7);
@@ -378,6 +378,7 @@ span{
 
 .projetos-img img{
     width: 300px;
+    
 }
 
 .projetos-img h3{
@@ -392,16 +393,17 @@ span{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 19rem;
-    height: 4.5rem;
+    width: 15rem;
+    height: 3.5rem;
     background: transparent;
     border: 0.2rem solid var(--main-color);
-    font-size: 2rem;
+    font-size: 1.8rem;
     border-radius: 1rem;
     color: var(--main-color);
-    margin: 3rem 1.5rem 3rem 0;
+    margin: 0.5rem 1rem 1rem 0;
    text-decoration-line: none;
    transition: 0.3s ease-in-out;
+   
 }
 .email:hover, .btn:hover, .projetos-img a:hover{
     color: var(--text-color);
