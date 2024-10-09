@@ -320,7 +320,8 @@ span{
     justify-content: center;
     padding: 40px 0;
     min-height: 100vh;
-    color: var(var(--text-color)) 
+    color: var(var(--text-color));
+    scroll-margin: ;
 }
 .skills i{
     display: inline-flex;
@@ -365,7 +366,7 @@ span{
     justify-content: center;
     text-align: center;
     align-items: center;
-    height: 400px;
+    height: 470px;
     min-height: 300px;
     max-width: 350px;
     background: rgba(0, 0, 0, 0.7);
@@ -387,7 +388,7 @@ span{
 
 
 .projetos-img img{
-    width: 300px;
+    width: 400px;
     
 }
 
