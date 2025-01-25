@@ -285,23 +285,6 @@ span{
     align-items: center;
 }
 
-.about-content .text-animation span::before{
-    content: "Desenvolvedora Front-end";
-    color: var(--main-color);
-    animation: words 20s infinite;
-}
-
-.about-content .text-animation span::after{
-    content:"";
-    background-color: var(--second-bg-color);
-    position: absolute;
-    width: calc(100% + 8px);
-    height: 100%;
-    border-left: 3px solid var(--bg-color);
-    right: -8px;
-    animation:cursor 0.6s infinite, typing 20s steps(14) infinite;
-}
-
 ::webkit-scrollbar{
     width: 15px;
 }
@@ -320,20 +303,28 @@ span{
     justify-content: center;
     padding: 40px 0;
     min-height: 100vh;
-    color: var(var(--text-color));
-    scroll-margin: ;
+    color: var(--text-color);
+    scroll-margin: 80px;
 }
-.skills i{
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 35px; 
+    width: 100%;
+    max-width: 800px;
+    justify-items: center; 
+    padding: 40px
+}
+
+.skill-item i {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 20px; 
     width: 10rem;
     height: 10rem;
     font-size: 6rem;
     color: var(--main-color);
-    margin: 5rem 5rem 4rem 0;
-    text-decoration-line: none;
     transition: 0.3s ease-in-out;
     box-shadow: 0 0 10px rgba(207, 207, 207, 0.7);
     border-radius: 50%;
@@ -463,7 +454,7 @@ span{
     position: relative;
     bottom: 0;
     width: 100%;
-    padding: 40px 0;
+    padding: 20px 0;
     background-color: var(--main-color) ;
 }
 .footer p{
@@ -527,7 +518,7 @@ span{
     .home {
         flex-direction: column;
         margin: 5rem 4rem;
-        
+       
     }
     .home-content h3 {
         font-size: 2.6rem;
@@ -535,14 +526,18 @@ span{
     .home-content h1 {
         font-size: 5rem;
         margin-top: 3rem;
+        
     }
     .home-content p {
         max-width: 600px;
         margin: 0 auto;
+        
     }
     .home-img img {
         width: 45vw;
         margin-top: 1rem;
+        top: 12rem;
+
     }
     .about {
         flex-direction: column-reverse;
@@ -555,5 +550,10 @@ span{
         margin-top: 1rem;
         margin-bottom: 3rem;
     }
-   
+    .skills-container {
+        grid-template-columns: repeat(3, 1fr);  
+        gap: 20px 5px; 
+    }
+
+  
 }
