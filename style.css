@@ -186,7 +186,7 @@ span{
     position:relative;
 }
 .text-animation span::before{
-    content: "Desenvolvedora Front-end";
+    content: "Analista e desenvolvedora de sistemas";
     color: var(--main-color);
     animation: words 20s infinite;
 }
